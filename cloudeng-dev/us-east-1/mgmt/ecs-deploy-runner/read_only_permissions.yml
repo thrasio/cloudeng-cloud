@@ -197,3 +197,13 @@ S3StateBucketAccess:
   resources:
   - "arn:aws:s3:::${state_bucket}"
   - "arn:aws:s3:::${state_bucket}/*"
+
+KMSDecryptSealedSecrets:
+  effect: "Allow"
+  actions:
+  - "kms:Describe*"
+  - "kms:Decrypt"
+  - "kms:Get*"
+  - "kms:List*"
+  resources:
+  - "arn:aws:kms:us-east-1:491657507480:key/e5798477-6ede-49c3-9838-7c1f968507f8"

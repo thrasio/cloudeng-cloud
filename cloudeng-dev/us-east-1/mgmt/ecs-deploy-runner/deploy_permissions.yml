@@ -157,3 +157,10 @@ S3DeployAccess:
   - "s3:*"
   resources:
   - "*"
+
+KMSDeployAccess:
+  effect: "Allow"
+  actions:
+  - "kms:*"
+  resources:
+  - "*"
