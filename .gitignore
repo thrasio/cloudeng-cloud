@@ -1,0 +1,31 @@
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+**/.terraform.lock.hcl
+**/*.pem
+
+# OS X
+.history
+.DS_Store
+
+# IntelliJ
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+build/
+*/build/
+out/
+
+# Terragrunt
+.terragrunt-cache
+
+# Gruntwork Reference Architecture Deployer state 
+*state_machine.json
+
+# TLS
+private_key.pem
+unencrypted-vault-dev.key
+unencrypted-vault.key
