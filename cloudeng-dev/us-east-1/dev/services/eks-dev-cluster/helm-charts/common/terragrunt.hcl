@@ -20,7 +20,6 @@ generate "helm" {
      }
    }
  }
-
  data "aws_eks_cluster" "cluster" {
    name = "${dependency.cluster.outputs.cluster_id}"
  }
