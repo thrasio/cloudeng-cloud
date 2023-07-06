@@ -28,7 +28,7 @@ include {
  }
 
 terraform {
-  source = "git::git@github.com:thrasio/cloud-modules.git//monitoring/datadog-integration?ref=v0.1.16"
+  source = "git::git@github.com:thrasio/cloud-modules.git//monitoring/datadog-integration?ref=ss/dd-integration-update"
 }
 
  inputs = {
