@@ -25,6 +25,7 @@ include {
    aws_region = local.region_vars.locals.aws_region
 
    datadog_secret_arn = "arn:aws:secretsmanager:us-east-1:491657507480:secret:dev/eks/datadog-QYcE2v"
+
  }
 
 terraform {
