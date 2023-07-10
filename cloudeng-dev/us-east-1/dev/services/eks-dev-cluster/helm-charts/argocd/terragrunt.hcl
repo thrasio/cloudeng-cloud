@@ -73,7 +73,6 @@ locals {
      "g, splat-service-account, role:splat-ci-service-role"
    ]
 }
-
 # Passed to main.tf
 inputs = {
   okta_sso_url              = local.okta_sso_url
