@@ -54,7 +54,7 @@ locals {
    account_vars = read_terragrunt_config(find_in_parent_folders("account.hcl"))
 
    # ArgoCD helm version
-   argo_helm_version = "5.27.1"
+   argo_helm_version = "5.38.0"
 
    # ArgoCD Cluster Variables
    cluster_domain           = local.account_vars.locals.domain_name.name
