@@ -63,7 +63,6 @@ locals {
    okta_secret_arn          = "arn:aws:secretsmanager:us-east-1:491657507480:secret:argocd-YUtLUM"
 
    rbac_config_policy_csv   = [
-     "g, TC-Affiliate-Platform-Dev, role:admin",
      "g, TC-Platform, role:admin",
      "g, Everyone, role:readonly",
      "p, role:splat-ci-service-role, applications, get, */*, allow",
