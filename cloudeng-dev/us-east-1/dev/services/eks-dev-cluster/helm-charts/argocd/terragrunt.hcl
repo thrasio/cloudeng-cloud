@@ -68,9 +68,8 @@ locals {
      "p, role:splat-ci-service-role, applications, get, */*, allow",
      "p, role:splat-ci-service-role, applications, sync, */*, allow",
      "p, role:splat-ci-service-role, applications, update, */*, allow",
-     "p, role:splat-ci-service-role, projects, get, *, allow",
-     "g, splat-service-account, role:splat-ci-service-role"
-   ]
+     "p, role:splat-ci-service-role, projects, get, *, allow"
+    ]
 }
 # Passed to main.tf
 inputs = {
